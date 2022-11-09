@@ -1,0 +1,107 @@
+@media screen and (max-width:600px){
+    .body{
+        display: none;
+    }
+    .mobile{
+        background: #ebe8e4;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        background: url("../assets/images/hmm.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 40px 40px 40px;
+        color: white;
+    }
+    .head h3{
+        font-size: 30px;
+    }
+    .menu1{
+        /* content: ""; */
+        display: flex;
+        width: 20px;
+        height: 3px;
+        background: white;
+        margin-bottom: 10px;
+        /* position: absolute; */
+        /* top: 0; */
+        /* transform: translatey(-10px); */
+    
+    }
+    .menu{
+        /* content: ""; */
+        /* position: relative; */
+        display: flex;
+        width: 20px;
+        height: 3px;
+        background: white;
+    }
+    .mob{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        /* line-height: 2px; */
+    }
+    .left-icon{
+        border: 2px solid white;
+        color: white;
+    }
+    .mob h5{
+        color: white;
+    }
+    .mob h1{
+        margin: 0 0 20px 0 ;
+    }
+    .mob span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .we{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .we p{
+        margin-right: 160px;
+    }
+    .rest{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* background: #ebe8e4; */
+        margin-top: 50px;
+    }
+  
+    footer{
+        display: none;
+    }
+    .mobile footer{
+        background: white;
+        display: flex;
+    }
+    .mail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mail button{
+        margin: 20px 0 20px 0;
+        width: 200px;
+    }
+
+}
